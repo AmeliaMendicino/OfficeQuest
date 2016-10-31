@@ -1,0 +1,45 @@
+<h1><span class="fa fa-sign-in"></span> Login</h1>
+
+<!-- LOGIN FORM -->
+<form class="form-horizontal">
+
+	<!-- Text input-->
+	<div class="form-group">
+		<label class="col-md-4 control-label" for="email">Email</label>  
+		<div class="col-md-5">
+		<input id="email" name="email" ng-model="login.user.email" type="text" placeholder="Email Address" class="form-control input-md">
+			
+		</div>
+	</div>
+
+	<!-- Password input-->
+	<div class="form-group">
+		<label class="col-md-4 control-label" for="password">Password</label>
+		<div class="col-md-5">
+			<input id="password" name="password" ng-model="login.user.password" type="password" placeholder="Password" class="form-control input-md">
+			
+		</div>
+	</div>
+
+    <!-- show any messages that come back with authentication -->
+    <div class="alert alert-danger" ng-show="login.error" class="ng-hide">{{login.error}}</div>
+
+
+    <!-- Button -->
+	<div class="form-group">
+		<label class="col-md-4 control-label" for="login"></label>
+		<div class="col-md-5">
+			<button ng-click="login.submit()" id="login" name="login" class="btn btn-success btn-block">Login!</button>
+		</div>
+	</div>
+
+</form>
+
+<hr>
+
+<div>
+	<div class="col-md-4"></div>
+	<div class="col-md-5">
+		<p class="text-center">Need an account? <a href="#/signup"><button type="button" class="btn btn-default btn-xs">Signup</button></a></p>
+	</div>
+</div>
