@@ -30,5 +30,6 @@ db.once('open', function callback () {
   console.log('Database Connection Successfully Opened at ' + database);
 });
 
+exports.connection = db;
 exports.users = UserModel;
 exports.avatars = AvatarModel;
