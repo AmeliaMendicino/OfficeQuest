@@ -15,6 +15,7 @@ module.exports = function (app, passport) {
 
     // Routes that require the user to be logged in
     app.use('/profile', isLoggedIn, require('./routes/profile'));
+    app.use('/avatar',  isLoggedIn, require('./routes/avatar'));
 }
 
 // Route middleware to make sure a user is logged in

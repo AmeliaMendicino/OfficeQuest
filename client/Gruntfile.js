@@ -229,6 +229,7 @@ module.exports = function (grunt) {
     }, 
 
     // Convert the svg files into grunticon
+    // TODO: Add grunt task to parse Inkscape SVG files into grunticon friendly SVGs
     grunticon: {
       sprites: {
         files: [{
