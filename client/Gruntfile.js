@@ -228,6 +228,21 @@ module.exports = function (grunt) {
       }
     }, 
 
+    // Convert the svg files into grunticon
+    grunticon: {
+      sprites: {
+        files: [{
+          expand: true,
+          cwd: 'rawSprites',
+          src: ['*.svg', '*.png'],
+          dest: 'sprites'
+        }],
+        options: {
+          enhanceSVG: true
+        }
+      }
+    },
+
     // Compiles Sass to CSS and generates necessary files if requested
     compass: {
       options: {
@@ -506,7 +521,8 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'grunticon:sprites'
   ]);
 
   grunt.registerTask('default', [
