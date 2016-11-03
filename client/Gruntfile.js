@@ -234,9 +234,9 @@ module.exports = function (grunt) {
       sprites: {
         files: [{
           expand: true,
-          cwd: 'rawSprites',
+          cwd: 'sprites',
           src: ['*.svg', '*.png'],
-          dest: 'sprites'
+          dest: '<%= yeoman.app %>/sprites'
         }],
         options: {
           enhanceSVG: true

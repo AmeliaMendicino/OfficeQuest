@@ -9,22 +9,26 @@ var db = require('../../database');
 var User = db.users;
 var Avatar = db.avatars;
 
-// TODO: Take this out after development
-var color = require('cli-color');
-
-// The GET /profile route
+// The GET /avatar route
 router.get('/', function (req, res) {
     Avatar.findOne({ _user : req.user.id }, function(err, avatar) {
-         // if there are any errors, return the error
         if (err)
-            return res.json({ error : err });
-
-        // if no user is found, return the message
+            return next(err);
         if (!avatar)
-            return res.json({ error : 'No avatar found' });
+            return res.json({error : 'No avatar found'});
 
-        else
-            return res.json(avatar);
+        res.json(avatar);
+    });
+});
+
+// The POST /avatar route for creating a new avatar for the logged in user
+router.post('/', function(req, res) {
+    req.body._user = req.user.id;
+    var avatar = new Avatar(req.body);
+    avatar.save(function(err) {
+        if (err)
+            return next(err);
+        res.json(avatar);
     });
 });
 
