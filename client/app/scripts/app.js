@@ -54,4 +54,6 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+  }).config(function(grunticonEmbedConfigProvider) {
+      grunticonEmbedConfigProvider.init('sprites/icons.data.svg.css');
   });
