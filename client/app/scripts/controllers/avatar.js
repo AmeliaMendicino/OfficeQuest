@@ -9,9 +9,9 @@
  */
 angular.module('clientApp')
   .controller('AvatarCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  	var avatar;
+
+    avatar = this;
+
+    avatar.sprite = 'icon-female-human_body';
   });

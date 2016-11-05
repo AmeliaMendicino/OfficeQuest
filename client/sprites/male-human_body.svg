@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="male_sprite.svg">
+   sodipodi:docname="male-human_body.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -280,7 +280,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="Hair1">
-    <path class="hair" data-custom-color="hair" fill="#e1d92d"
+    <path class="hair hair1" data-custom-color="hair1" fill="#e1d92d"
        style="fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 150 50 L 150 75 L 125 75 L 100 75 L 100 100 L 75 100 L 75 125 L 75 150 L 75 175 L 75 200 L 50 200 L 50 225 L 50 250 L 75 250 L 75 275 L 100 275 L 100 250 L 100 225 L 100 200 L 100 175 L 100 150 L 125 150 L 150 150 L 150 175 L 175 175 L 200 175 L 225 175 L 250 175 L 275 175 L 275 150 L 300 150 L 325 150 L 325 175 L 325 200 L 325 225 L 325 250 L 325 275 L 350 275 L 350 250 L 375 250 L 375 225 L 375 200 L 350 200 L 350 175 L 350 150 L 350 125 L 350 100 L 325 100 L 325 75 L 300 75 L 275 75 L 275 50 L 250 50 L 225 50 L 200 50 L 175 50 L 150 50 z "
        id="rect4145-7-0-06-13-1-1" />
@@ -289,7 +289,7 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="Hair1_Shadow_Light">
-    <path
+    <path class="hair shadow hair1"
        style="fill:#9b5595;fill-opacity:0.19607843;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 175 50 L 175 75 L 200 75 L 200 50 L 175 50 z M 175 75 L 150 75 L 150 100 L 150 125 L 175 125 L 175 100 L 175 75 z M 175 125 L 175 150 L 175 175 L 175 200 L 200 200 L 225 200 L 250 200 L 250 175 L 275 175 L 300 175 L 300 200 L 325 200 L 325 175 L 325 150 L 325 125 L 300 125 L 275 125 L 250 125 L 250 150 L 225 150 L 200 150 L 200 125 L 175 125 z M 325 200 L 325 225 L 325 250 L 325 275 L 350 275 L 350 250 L 375 250 L 375 225 L 350 225 L 350 200 L 325 200 z M 100 150 L 100 175 L 100 200 L 125 200 L 125 175 L 150 175 L 150 150 L 125 150 L 100 150 z M 100 200 L 75 200 L 75 225 L 50 225 L 50 250 L 75 250 L 75 275 L 100 275 L 100 250 L 100 225 L 100 200 z "
        id="rect4145-7-0-06-13-1-7-99-8-3" />
