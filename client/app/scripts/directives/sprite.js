@@ -20,14 +20,11 @@ angular.module('clientApp')
       	model: '='
       },
       restrict: 'E',
-      link: function postLink(scope, element, attrs) {
+      link: function postLink(scope) {
       	// Set the unique id for this sprite directive
       	scope.id = uniqueID++;
       	// Make the hasColor function accessible to the directive scope
       	scope.hasColor = hasColor;
-        scope.$watch('model', function() {
-        	console.log(attrs);
-        });
       },
       
       templateUrl: 'views/_sprite.html'
