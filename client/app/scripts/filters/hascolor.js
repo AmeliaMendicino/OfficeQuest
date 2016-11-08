@@ -13,7 +13,7 @@ angular.module('clientApp')
     return function (input) {
       var filteredInput = {};
       angular.forEach(input, function(value, key) {
-      	if(typeof value.color !== 'undefined') {
+      	if(typeof value.color !== 'undefined' && value.color !== false) {
       		filteredInput[key] = value;
       	}
       });

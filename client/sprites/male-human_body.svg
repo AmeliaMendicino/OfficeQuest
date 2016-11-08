@@ -79,7 +79,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Skin">
-    <path class="skin" data-custom-color="skin" fill="#fcddae"
+    <path class="skin custom-color" data-custom-color="skin" fill="#fcddae"
        style="fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 150 50 L 150 75 L 125 75 L 100 75 L 100 100 L 75 100 L 75 125 L 75 150 L 75 175 L 75 200 L 50 200 L 50 225 L 50 250 L 50 275 L 50 300 L 75 300 L 100 300 L 100 325 L 125 325 L 125 350 L 150 350 L 175 350 L 175 375 L 150 375 L 125 375 L 125 400 L 125 425 L 100 425 L 100 450 L 100 475 L 100 500 L 75 500 L 75 525 L 75 550 L 75 575 L 75 600 L 100 600 L 100 575 L 100 550 L 100 525 L 125 525 L 125 500 L 125 475 L 150 475 L 150 450 L 175 450 L 175 475 L 175 500 L 175 525 L 175 550 L 175 575 L 175 600 L 175 625 L 175 650 L 175 675 L 175 700 L 175 725 L 175 750 L 150 750 L 125 750 L 125 775 L 150 775 L 175 775 L 200 775 L 200 750 L 200 725 L 200 700 L 200 675 L 200 650 L 200 625 L 200 600 L 200 575 L 225 575 L 225 600 L 225 625 L 225 650 L 225 675 L 225 700 L 225 725 L 225 750 L 225 775 L 250 775 L 275 775 L 300 775 L 300 750 L 275 750 L 250 750 L 250 725 L 250 700 L 250 675 L 250 650 L 250 625 L 250 600 L 250 575 L 250 550 L 250 525 L 250 500 L 250 475 L 250 450 L 275 450 L 275 475 L 300 475 L 300 500 L 300 525 L 325 525 L 325 550 L 325 575 L 325 600 L 350 600 L 350 575 L 350 550 L 350 525 L 350 500 L 325 500 L 325 475 L 325 450 L 325 425 L 300 425 L 300 400 L 300 375 L 275 375 L 250 375 L 250 350 L 275 350 L 300 350 L 300 325 L 325 325 L 325 300 L 350 300 L 375 300 L 375 275 L 375 250 L 375 225 L 375 200 L 350 200 L 350 175 L 350 150 L 350 125 L 350 100 L 325 100 L 325 75 L 300 75 L 275 75 L 275 50 L 250 50 L 225 50 L 200 50 L 175 50 L 150 50 z "
        id="rect4145-7-0-06-13" />
@@ -106,7 +106,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Eyes">
-    <path class="eyes" data-custom-color="eyes" fill="#569afc"
+    <path class="eyes custom-color" data-custom-color="eyes" fill="#569afc"
        style="fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 125 225 L 125 250 L 125 275 L 150 275 L 150 250 L 150 225 L 125 225 z M 275 225 L 275 250 L 275 275 L 300 275 L 300 250 L 300 225 L 275 225 z "
        id="rect4145-7-0-06-13-1-9" />
@@ -280,7 +280,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="Hair1">
-    <path class="hair hair1" data-custom-color="hair1" fill="#e1d92d"
+    <path class="hair hair1 custom-color" data-custom-color="hair" fill="#e1d92d"
        style="fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 150 50 L 150 75 L 125 75 L 100 75 L 100 100 L 75 100 L 75 125 L 75 150 L 75 175 L 75 200 L 50 200 L 50 225 L 50 250 L 75 250 L 75 275 L 100 275 L 100 250 L 100 225 L 100 200 L 100 175 L 100 150 L 125 150 L 150 150 L 150 175 L 175 175 L 200 175 L 225 175 L 250 175 L 275 175 L 275 150 L 300 150 L 325 150 L 325 175 L 325 200 L 325 225 L 325 250 L 325 275 L 350 275 L 350 250 L 375 250 L 375 225 L 375 200 L 350 200 L 350 175 L 350 150 L 350 125 L 350 100 L 325 100 L 325 75 L 300 75 L 275 75 L 275 50 L 250 50 L 225 50 L 200 50 L 175 50 L 150 50 z "
        id="rect4145-7-0-06-13-1-1" />

@@ -77,7 +77,7 @@
      inkscape:groupmode="layer"
      id="layer12"
      inkscape:label="Skin">
-    <path class="skin" data-custom-color="skin" fill="#fcddae"
+    <path class="skin custom-color" data-custom-color="skin" fill="#fcddae"
        style="fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 150 50 L 150 75 L 125 75 L 100 75 L 100 100 L 75 100 L 75 125 L 75 150 L 75 175 L 75 200 L 50 200 L 50 225 L 50 250 L 50 275 L 50 300 L 75 300 L 100 300 L 100 325 L 125 325 L 125 350 L 150 350 L 175 350 L 175 375 L 150 375 L 125 375 L 125 400 L 125 425 L 100 425 L 100 450 L 100 475 L 100 500 L 75 500 L 75 525 L 75 550 L 75 575 L 75 600 L 100 600 L 100 575 L 100 550 L 100 525 L 125 525 L 125 500 L 125 475 L 125 450 L 150 450 L 150 475 L 175 475 L 175 500 L 150 500 L 150 525 L 125 525 L 125 550 L 125 575 L 150 575 L 150 600 L 150 625 L 150 650 L 150 675 L 150 700 L 150 725 L 150 750 L 125 750 L 125 775 L 150 775 L 175 775 L 175 750 L 175 725 L 175 700 L 175 675 L 175 650 L 175 625 L 175 600 L 175 575 L 200 575 L 225 575 L 225 600 L 225 625 L 225 650 L 225 675 L 225 700 L 225 725 L 225 750 L 225 775 L 250 775 L 275 775 L 275 750 L 250 750 L 250 725 L 250 700 L 250 675 L 250 650 L 250 625 L 250 600 L 250 575 L 275 575 L 275 550 L 275 525 L 250 525 L 250 500 L 225 500 L 225 475 L 250 475 L 250 450 L 275 450 L 275 475 L 275 500 L 275 525 L 300 525 L 300 550 L 300 575 L 300 600 L 325 600 L 325 575 L 325 550 L 325 525 L 325 500 L 300 500 L 300 475 L 300 450 L 300 425 L 275 425 L 275 400 L 275 375 L 250 375 L 225 375 L 225 350 L 250 350 L 275 350 L 275 325 L 300 325 L 300 300 L 325 300 L 350 300 L 350 275 L 350 250 L 350 225 L 350 200 L 325 200 L 325 175 L 325 150 L 325 125 L 325 100 L 300 100 L 300 75 L 275 75 L 250 75 L 250 50 L 225 50 L 200 50 L 175 50 L 150 50 z "
        id="rect4145-7-0-06-13-1-52" />
@@ -113,7 +113,7 @@
      inkscape:groupmode="layer"
      id="layer13"
      inkscape:label="Eyes">
-    <path class="eyes" data-custom-color="eyes" fill="#569afc"
+    <path class="eyes custom-color" data-custom-color="eyes" fill="#569afc"
        style="fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 125 225 L 125 250 L 125 275 L 150 275 L 150 250 L 150 225 L 125 225 z M 250 225 L 250 250 L 250 275 L 275 275 L 275 250 L 275 225 L 250 225 z "
        id="rect4145-7-0-06-13-1-303-4" />
@@ -140,7 +140,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Hair1">
-    <path class="hair hair1" data-custom-color="hair1" fill="blue" 
+    <path class="hair hair1 custom-color" data-custom-color="hair" fill="blue"
        style="fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 100,25 0,25 -25,0 0,25 -25,0 0,25 -25,0 0,25 0,25 -25,0 0,25 0,25 0,25 0,25 0,25 0,25 25,0 0,-25 0,-25 25,0 25,0 25,0 0,-25 0,-25 25,0 0,-25 25,0 0,-25 25,0 0,25 25,0 25,0 0,25 25,0 25,0 25,0 0,25 0,25 25,0 0,-25 25,0 0,-25 25,0 0,25 0,25 0,25 0,25 -25,0 0,25 -25,0 -25,0 0,25 -25,0 0,25 25,0 25,0 25,0 0,-25 25,0 0,-25 25,0 0,-25 0,-25 0,-25 0,-25 0,-25 0,-25 0,-25 0,-25 -25,0 0,-25 -25,0 0,-25 -25,0 0,-25 -25,0 0,-25 -25,0 -25,0 -25,0 -25,0 -25,0 -25,0 -25,0 -25,0 z m -75,275 0,25 0,25 25,0 0,25 25,0 25,0 25,0 0,-25 -25,0 0,-25 -25,0 -25,0 0,-25 -25,0 z"
        id="rect4145-7-0-06-13-1-09"
@@ -160,7 +160,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="Hair2">
-    <path class="hair hair2" data-custom-color="hair2" fill="blue" 
+    <path class="hair hair2 custom-color" data-custom-color="hair" fill="blue" 
        style="fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 150 25 L 150 50 L 125 50 L 100 50 L 100 75 L 75 75 L 75 100 L 50 100 L 50 125 L 50 150 L 25 150 L 25 175 L 25 200 L 0 200 L 0 225 L 0 250 L 0 275 L 0 300 L 0 325 L 25 325 L 25 350 L 50 350 L 75 350 L 100 350 L 100 325 L 75 325 L 50 325 L 50 300 L 50 275 L 50 250 L 75 250 L 75 275 L 100 275 L 100 250 L 100 225 L 125 225 L 150 225 L 175 225 L 200 225 L 225 225 L 250 225 L 275 225 L 300 225 L 300 250 L 300 275 L 325 275 L 325 250 L 350 250 L 350 275 L 350 300 L 350 325 L 325 325 L 300 325 L 300 350 L 325 350 L 350 350 L 375 350 L 375 325 L 400 325 L 400 300 L 400 275 L 400 250 L 400 225 L 400 200 L 375 200 L 375 175 L 350 175 L 350 150 L 350 125 L 350 100 L 325 100 L 325 75 L 300 75 L 300 50 L 275 50 L 250 50 L 250 25 L 225 25 L 200 25 L 175 25 L 150 25 z "
        id="rect4145-7-0-06-13-1-4" />
