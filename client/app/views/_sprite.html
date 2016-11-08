@@ -1,0 +1,9 @@
+<div class="sprite" id="sprite_{{::id}}">
+	<!-- TODO: Make it so that we don't create a new style element for each property... -->
+	<style parse-style ng-repeat="(key, value) in model | hasColor">
+		#sprite_{{::id}} .{{key}} {
+			fill: {{value.color}};
+		}
+	</style>
+	<div data-grunticon-embed="{{model.body}}"/>
+</div>
