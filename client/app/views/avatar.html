@@ -1,6 +1,10 @@
 <p>This is the avatar view.</p>
 
-<div data-grunticon-embed="{{avatar.sprite}}"/>
+<div ng-repeat="(key, value) in avatar.sprite">
+	{{key}} : {{value}}
+</div>
+
+<sprite model="avatar.sprite" />
 
 <p>Hello!</p>
 
