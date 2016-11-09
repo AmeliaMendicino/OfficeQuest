@@ -1,8 +1,14 @@
 <div class="sprite" id="sprite_{{::id}}">
 	<!-- TODO: Make it so that we don't create a new style element for each property... -->
-	<style parse-style ng-repeat="(key, value) in model | hasColor">
+	<style parse-style ng-repeat="(key, value) in model | hasProperty : 'color' ">
 		#sprite_{{::id}} .{{key}} {
 			fill: {{value.color}};
+		}
+	</style>
+	<!-- TODO: Seriously, we should combine all of these. Geez -->
+	<style parse-style ng-repeat="(key, value) in model | hasProperty : 'currentStyle' ">
+		#sprite_{{::id}} .{{key}}-{{value.currentStyle}} {
+			display: inline;
 		}
 	</style>
 	<div data-grunticon-embed="{{model.body}}"/>
