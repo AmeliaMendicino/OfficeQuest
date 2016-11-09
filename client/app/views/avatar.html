@@ -1,14 +1,17 @@
 <p>This is the avatar view.</p>
 
-<div class="container">
-	<sprite model="avatar.sprite" />
-
-	<div ng-repeat="(key, value) in avatar.sprite">
-		{{key}} : {{value}}
+<div class="wrap">
+	<div class="avatarSprite pull-left">
+		<sprite model="avatar.sprite" />
 	</div>
-
+	<div class="avatarCustomize">
+		<div ng-repeat="(key, value) in avatar.sprite">
+			<div ng-if="value.color !== undefined">
+				{{key}} Color: Make color picker that sets value.color: {{value.color}}
+			</div>
+			<div ng-if="value.styles !== undefined">
+				{{key}} Style: Make arrows to change value.currentStyle: {{value.currentStyle}}
+			</div>
+		</div>
+	</div>
 </div>
-
-<p>Hello!</p>
-
-<p>Ossu.</p>
