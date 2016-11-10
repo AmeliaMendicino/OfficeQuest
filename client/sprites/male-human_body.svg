@@ -309,8 +309,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Hair2"
-     style="display:none">
+     inkscape:label="Hair2">
     <path
       class="hair hair-afro custom-color"
        data-custom-color="hair-afro"
@@ -324,8 +323,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Hair2_Shadow"
-     style="display:none">
+     inkscape:label="Hair2_Shadow">
     <path
       class="hair shadow hair-afro"
        display="none"
