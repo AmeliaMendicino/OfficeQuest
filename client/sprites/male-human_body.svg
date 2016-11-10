@@ -26,16 +26,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.76"
-     inkscape:cx="212.5"
+     inkscape:cx="135.69577"
      inkscape:cy="412.5"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer14"
      showgrid="true"
      units="px"
      inkscape:window-width="946"
      inkscape:window-height="829"
-     inkscape:window-x="429"
-     inkscape:window-y="9"
+     inkscape:window-x="334"
+     inkscape:window-y="20"
      inkscape:window-maximized="0"
      inkscape:showpageshadow="false"
      borderlayer="true"
@@ -60,7 +60,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -79,7 +79,10 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Skin">
-    <path class="skin custom-color" data-custom-color="skin" fill="#fcddae"
+    <path
+       class="skin custom-color"
+       data-custom-color="skin"
+       fill="#fcddae"
        style="fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 150 50 L 150 75 L 125 75 L 100 75 L 100 100 L 75 100 L 75 125 L 75 150 L 75 175 L 75 200 L 50 200 L 50 225 L 50 250 L 50 275 L 50 300 L 75 300 L 100 300 L 100 325 L 125 325 L 125 350 L 150 350 L 175 350 L 175 375 L 150 375 L 125 375 L 125 400 L 125 425 L 100 425 L 100 450 L 100 475 L 100 500 L 75 500 L 75 525 L 75 550 L 75 575 L 75 600 L 100 600 L 100 575 L 100 550 L 100 525 L 125 525 L 125 500 L 125 475 L 150 475 L 150 450 L 175 450 L 175 475 L 175 500 L 175 525 L 175 550 L 175 575 L 175 600 L 175 625 L 175 650 L 175 675 L 175 700 L 175 725 L 175 750 L 150 750 L 125 750 L 125 775 L 150 775 L 175 775 L 200 775 L 200 750 L 200 725 L 200 700 L 200 675 L 200 650 L 200 625 L 200 600 L 200 575 L 225 575 L 225 600 L 225 625 L 225 650 L 225 675 L 225 700 L 225 725 L 225 750 L 225 775 L 250 775 L 275 775 L 300 775 L 300 750 L 275 750 L 250 750 L 250 725 L 250 700 L 250 675 L 250 650 L 250 625 L 250 600 L 250 575 L 250 550 L 250 525 L 250 500 L 250 475 L 250 450 L 275 450 L 275 475 L 300 475 L 300 500 L 300 525 L 325 525 L 325 550 L 325 575 L 325 600 L 350 600 L 350 575 L 350 550 L 350 525 L 350 500 L 325 500 L 325 475 L 325 450 L 325 425 L 300 425 L 300 400 L 300 375 L 275 375 L 250 375 L 250 350 L 275 350 L 300 350 L 300 325 L 325 325 L 325 300 L 350 300 L 375 300 L 375 275 L 375 250 L 375 225 L 375 200 L 350 200 L 350 175 L 350 150 L 350 125 L 350 100 L 325 100 L 325 75 L 300 75 L 275 75 L 275 50 L 250 50 L 225 50 L 200 50 L 175 50 L 150 50 z "
        id="rect4145-7-0-06-13" />
@@ -106,7 +109,10 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Eyes">
-    <path class="eyes custom-color" data-custom-color="eyes" fill="#569afc"
+    <path
+       class="eyes custom-color"
+       data-custom-color="eyes"
+       fill="#569afc"
        style="fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 125 225 L 125 250 L 125 275 L 150 275 L 150 250 L 150 225 L 125 225 z M 275 225 L 275 250 L 275 275 L 300 275 L 300 250 L 300 225 L 275 225 z "
        id="rect4145-7-0-06-13-1-9" />
@@ -280,7 +286,11 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="Hair1">
-    <path class="hair hair-short custom-color" data-custom-color="hair-short" fill="#e1d92d" display="none"
+    <path
+       class="hair hair-short custom-color"
+       data-custom-color="hair-short"
+       fill="#e1d92d"
+       display="none"
        style="fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 150 50 L 150 75 L 125 75 L 100 75 L 100 100 L 75 100 L 75 125 L 75 150 L 75 175 L 75 200 L 50 200 L 50 225 L 50 250 L 75 250 L 75 275 L 100 275 L 100 250 L 100 225 L 100 200 L 100 175 L 100 150 L 125 150 L 150 150 L 150 175 L 175 175 L 200 175 L 225 175 L 250 175 L 275 175 L 275 150 L 300 150 L 325 150 L 325 175 L 325 200 L 325 225 L 325 250 L 325 275 L 350 275 L 350 250 L 375 250 L 375 225 L 375 200 L 350 200 L 350 175 L 350 150 L 350 125 L 350 100 L 325 100 L 325 75 L 300 75 L 275 75 L 275 50 L 250 50 L 225 50 L 200 50 L 175 50 L 150 50 z "
        id="rect4145-7-0-06-13-1-1" />
@@ -289,9 +299,64 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="Hair1_Shadow_Light">
-    <path class="hair shadow hair-short" display="none"
+    <path
+       class="hair shadow hair-short"
+       display="none"
        style="fill:#9b5595;fill-opacity:0.19607843;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 175 50 L 175 75 L 200 75 L 200 50 L 175 50 z M 175 75 L 150 75 L 150 100 L 150 125 L 175 125 L 175 100 L 175 75 z M 175 125 L 175 150 L 175 175 L 175 200 L 200 200 L 225 200 L 250 200 L 250 175 L 275 175 L 300 175 L 300 200 L 325 200 L 325 175 L 325 150 L 325 125 L 300 125 L 275 125 L 250 125 L 250 150 L 225 150 L 200 150 L 200 125 L 175 125 z M 325 200 L 325 225 L 325 250 L 325 275 L 350 275 L 350 250 L 375 250 L 375 225 L 350 225 L 350 200 L 325 200 z M 100 150 L 100 175 L 100 200 L 125 200 L 125 175 L 150 175 L 150 150 L 125 150 L 100 150 z M 100 200 L 75 200 L 75 225 L 50 225 L 50 250 L 75 250 L 75 275 L 100 275 L 100 250 L 100 225 L 100 200 z "
        id="rect4145-7-0-06-13-1-7-99-8-3" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Hair2"
+     style="display:none">
+    <path
+      class="hair hair-afro custom-color"
+       data-custom-color="hair-afro"
+       fill="#732c2c"
+       display="none"
+       style="fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 125,0 0,25 -25,0 -25,0 0,25 -25,0 0,25 -25,0 0,25 0,25 0,25 -25,0 0,25 0,25 0,25 0,25 0,25 25,0 25,0 25,0 25,0 0,-25 0,-25 25,0 0,-25 25,0 0,25 25,0 0,-25 25,0 0,25 25,0 0,-25 25,0 0,25 25,0 0,-25 25,0 0,25 25,0 0,25 0,25 25,0 25,0 25,0 25,0 0,-25 0,-25 0,-25 0,-25 0,-25 -25,0 0,-25 0,-25 -25,0 0,-25 -25,0 0,-25 -25,0 0,-25 -25,0 0,-25 -25,0 -25,0 -25,0 -25,0 -25,0 -25,0 -25,0 z"
+       id="rect4145-7-0-06-13-1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Hair2_Shadow"
+     style="display:none">
+    <path
+      class="hair shadow hair-afro"
+       display="none"
+       style="fill:#391f37;fill-opacity:0.47133759;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 75,200 0,25 -25,0 -25,0 0,25 -25,0 0,25 25,0 25,0 25,0 25,0 0,-25 0,-25 25,0 25,0 25,0 25,0 25,0 25,0 25,0 25,0 25,0 0,25 0,25 25,0 25,0 25,0 25,0 0,-25 -25,0 -25,0 0,-25 -25,0 0,-25 -25,0 -25,0 -25,0 -25,0 -25,0 -25,0 -25,0 -25,0 -25,0 -25,0 -25,0 z"
+       id="rect4145-7-0-06-13-1-7-56-6"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="Hair3"
+     style="display:inline">
+    <path
+      class="hair hair-emo custom-color"
+       data-custom-color="hair-emo"
+       fill="#323232"
+       display="none"
+       style="fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 150 25 L 150 50 L 125 50 L 100 50 L 100 75 L 75 75 L 75 100 L 50 100 L 50 125 L 50 150 L 50 175 L 25 175 L 25 200 L 25 225 L 50 225 L 50 250 L 75 250 L 75 275 L 100 275 L 100 250 L 100 225 L 125 225 L 125 200 L 150 200 L 150 175 L 175 175 L 175 200 L 200 200 L 200 225 L 225 225 L 225 250 L 250 250 L 250 275 L 275 275 L 300 275 L 325 275 L 350 275 L 350 250 L 375 250 L 375 225 L 400 225 L 400 200 L 400 175 L 400 150 L 375 150 L 375 125 L 375 100 L 350 100 L 350 75 L 325 75 L 325 50 L 300 50 L 275 50 L 275 25 L 250 25 L 225 25 L 200 25 L 175 25 L 150 25 z "
+       id="rect4145-7-0-06-13-1-47" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer14"
+     inkscape:label="Hair3_Shadow">
+    <path
+      class="hair shadow hair-emo"
+       display="none"
+       style="fill:#673863;fill-opacity:0.39215681;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 150 125 L 150 150 L 125 150 L 125 175 L 125 200 L 100 200 L 75 200 L 75 225 L 50 225 L 50 250 L 75 250 L 75 275 L 100 275 L 100 250 L 125 250 L 150 250 L 175 250 L 200 250 L 225 250 L 225 275 L 250 275 L 275 275 L 275 300 L 300 300 L 325 300 L 325 275 L 350 275 L 350 300 L 375 300 L 375 275 L 375 250 L 375 225 L 350 225 L 350 200 L 350 175 L 350 150 L 325 150 L 300 150 L 300 175 L 325 175 L 325 200 L 325 225 L 325 250 L 300 250 L 275 250 L 250 250 L 250 225 L 225 225 L 225 200 L 200 200 L 200 175 L 200 150 L 175 150 L 175 125 L 150 125 z M 300 150 L 300 125 L 275 125 L 275 150 L 300 150 z "
+       id="rect4145-7-0-06-13-1-7-9-0" />
   </g>
 </svg>
