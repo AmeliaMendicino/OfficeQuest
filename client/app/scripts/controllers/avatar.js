@@ -66,6 +66,7 @@ angular.module('clientApp')
             return;
         }
         // Put together object to send to server
+        // TODO: Take out all the styles from the sprite properties! Dun' want those in the db...
         var avatarObj = {name: avatar.name, sprite: avatar.sprite};
 
         // Make the request to the server
