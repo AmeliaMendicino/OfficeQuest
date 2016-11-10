@@ -3,14 +3,15 @@
 <div class="wrap">
 	<div class="avatarSprite pull-left">
 		<sprite model="avatar.sprite" />
+		<button ng-click="avatar.nextBody()" type="button" class="btn btn-primary" id="switchBody"> <<&nbsp;&nbsp;>> </button>
 	</div>
 	<div class="avatarCustomize">
 		<div ng-repeat="(key, value) in avatar.sprite">
 			<div ng-if="value.color !== undefined">
-				{{key}} Color: Make color picker that sets value.color: {{value.color}}
+				{{key}} Color: <input type="color"/>
 			</div>
 			<div ng-if="value.styles !== undefined">
-				{{key}} Style: Make arrows to change value.currentStyle: {{value.currentStyle}}
+				{{key}} Style: <button ng-click="avatar.prevStyle(key)" type="button" class="btn btn-primary btn-inline" id="switchStyle"> << </button> <button ng-click="avatar.nextStyle(key)" type="button" class="btn btn-primary btn-inline" id="switchStyle"> >> </button> {{value.currentStyle}}
 			</div>
 		</div>
 	</div>

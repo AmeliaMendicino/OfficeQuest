@@ -28,6 +28,13 @@ angular.module('clientApp')
         
         // Watch the body to see if we need to add in any extra properties to the model
         scope.$watch('model.body', function() {
+            // Clear out all of the style options from the current model
+            angular.forEach(scope.model, function(value) {
+                if(typeof value.styles !== 'undefined') {
+                    delete value.styles;
+                }
+            });
+
             // Get all of the custom properties that we can add colors to
             var svg = grunticonEmbedConfig.gruntIcons[scope.model.body];
             // In the form data-custom-color="propertyName"
