@@ -1,7 +1,7 @@
 <div class="wrap">
 	<div class="avatarSprite pull-left">
 		<sprite model="avatar.sprite" />
-		<button ng-click="avatar.nextBody()" type="button" class="btn btn-primary" id="switchBody"> &larr;&nbsp;&nbsp;&rarr; </button>
+		<a ng-click="avatar.nextBody()" class="btn btn-primary"><span class="fa fa-chevron-left"></span>&nbsp;&nbsp;<span class="fa fa-chevron-right"></span></a>
 	</div>
 	<div class="avatarCustomize">
 		<div ng-if="avatar.error" class="text-danger">{{avatar.error}}</div>
@@ -12,7 +12,7 @@
 				{{key}} Color: <input type="color" ng-model="value.color"/>
 			</div>
 			<div ng-if="value.styles !== undefined">
-				{{key}} Style: <button ng-click="avatar.prevStyle(key)" type="button" class="btn btn-primary btn-inline" id="switchStyle"> &larr; </button> <button ng-click="avatar.nextStyle(key)" type="button" class="btn btn-primary btn-inline" id="switchStyle"> &rarr; </button> {{value.currentStyle}}
+				{{key}} Style: <a ng-click="avatar.prevStyle(key)" class="btn btn-primary btn-inline"><span class="fa fa-chevron-left"></span></a><a ng-click="avatar.nextStyle(key)" class="btn btn-primary btn-inline"><span class="fa fa-chevron-right"></span></a> {{value.currentStyle}}
 			</div>
 		</div>
 		<button type="submit" class="btn btn-success" ng-click="avatar.submit()">Save!</button>
