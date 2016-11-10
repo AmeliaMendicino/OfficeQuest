@@ -3,7 +3,10 @@
     <a href="/logout" class="btn btn-default btn-sm">Logout</a>
 </div>
 
-<sprite model="profile.avatar.sprite"/>
+<div class="text-center">
+    <h1>{{profile.avatar.name}}</h1>
+    <sprite model="profile.avatar.sprite"/>
+</div>
 
 <div class="row">
 
@@ -14,7 +17,6 @@
 
             <div ng-if="profile.user.local.email">
                 <p>
-                    <strong>id</strong>: {{profile.user._id}}<br>
                     <strong>email</strong>: {{profile.user.local.email}}<br>
                     <strong>password</strong>: {{profile.user.local.password}}
                 </p>
@@ -36,8 +38,6 @@
             <!-- check if the user has this token (is the user authenticated with this social account) -->
             <div ng-if="profile.user.facebook.token">
                 <p>
-                    <strong>id</strong>: {{profile.user.facebook.id}}<br>
-                    <strong>token</strong>: {{profile.user.facebook.token}}<br>
                     <strong>email</strong>: {{profile.user.facebook.email}}<br>
                     <strong>name</strong>: {{profile.user.facebook.name}}<br>
                 </p>
@@ -61,8 +61,6 @@
 
             <div ng-if="profile.user.twitter.token">
                 <p>
-                    <strong>id</strong>: {{profile.user.twitter.id}}<br>
-                    <strong>token</strong>: {{profile.user.twitter.token}}<br>
                     <strong>display name</strong>: {{profile.user.twitter.displayName}}<br>
                     <strong>username</strong>: {{profile.user.twitter.username}}
                 </p>
@@ -83,8 +81,6 @@
 
             <div ng-if="profile.user.google.token">
                <p>
-                    <strong>id</strong>: {{profile.user.google.id}}<br>
-                    <strong>token</strong>: {{profile.user.google.token}}<br>
                     <strong>email</strong>: {{profile.user.google.email}}<br>
                     <strong>name</strong>: {{profile.user.google.name}}
                 </p>
