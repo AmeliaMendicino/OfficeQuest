@@ -51,9 +51,18 @@ angular
         controller: 'AvatarCtrl',
         controllerAs: 'avatar'
       })
+      .when('/avatars', {
+        templateUrl: 'views/avatars.html',
+        controller: 'AvatarsCtrl',
+        controllerAs: 'avatars'
+      })
       .otherwise({
         redirectTo: '/'
       });
   }).config(function(grunticonEmbedConfigProvider) {
       grunticonEmbedConfigProvider.init('sprites/icons.data.svg.css');
+  }).controller('HeaderController', function($scope, $location) {
+    $scope.isActive = function (viewLocation) { 
+        return viewLocation === $location.path();
+    };
   });
