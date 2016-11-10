@@ -17,7 +17,7 @@ angular.module('clientApp')
     	console.log(response);
     }, function(data){
     	if (data.status === 401) {
-    		avatars.error = "Please log in to see avatars!";
+    		avatars.error = 'Please log in to see avatars!';
     	}
     });
   });
