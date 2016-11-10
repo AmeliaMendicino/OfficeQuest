@@ -58,4 +58,8 @@ angular.module('clientApp')
 
         avatar.sprite[property].currentStyle = avatar.sprite[property].styles[index];
     };
+
+    avatar.submit = function () {
+        console.log(avatar);
+    };
   });

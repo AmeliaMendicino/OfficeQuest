@@ -4,6 +4,7 @@
 		<button ng-click="avatar.nextBody()" type="button" class="btn btn-primary" id="switchBody"> <<&nbsp;&nbsp;>> </button>
 	</div>
 	<div class="avatarCustomize">
+		<span>Name: </span><input type="text" ng-model="avatar.name"/>
 		<div ng-repeat="(key, value) in avatar.sprite">
 			<div ng-if="value.color !== undefined">
 				{{key}} Color: <input type="color" ng-model="value.color"/>
@@ -12,5 +13,6 @@
 				{{key}} Style: <button ng-click="avatar.prevStyle(key)" type="button" class="btn btn-primary btn-inline" id="switchStyle"> << </button> <button ng-click="avatar.nextStyle(key)" type="button" class="btn btn-primary btn-inline" id="switchStyle"> >> </button> {{value.currentStyle}}
 			</div>
 		</div>
+		<button type="submit" class="btn btn-success" ng-click="avatar.submit()">Save!</button>
 	</div>
 </div>
