@@ -8,7 +8,7 @@
  * Controller of the clientApp
  */
 angular.module('clientApp')
-  .controller('AvatarCtrl', function (grunticonEmbedConfig) {
+  .controller('AvatarCtrl', function (grunticonEmbedConfig, $http, $location) {
     var avatar = this;
     avatar.bodies = [];
     angular.forEach(grunticonEmbedConfig.gruntIcons, function(value, key) {
@@ -62,14 +62,16 @@ angular.module('clientApp')
     avatar.submit = function () {
         // Check to see if a name has been inputted
         if (!avatar.name ) {
-            avatar.error = "*Please put in a name for your avatar!";
+            avatar.error = '*Please put in a name for your avatar!';
+            return;
         }
         // Put together object to send to server
+        var avatarObj = {name: avatar.name, sprite: avatar.sprite};
 
         // Make the request to the server
-        var request = $http.post('/avatar', user);
+        var request = $http.post('/avatar', avatarObj);
 
-        request.success(function (data) {
+        request.success(function () {
             avatar.error = false;
             $location.path('/profile');
         });

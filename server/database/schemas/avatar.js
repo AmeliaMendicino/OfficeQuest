@@ -9,7 +9,7 @@ var avatarSchema = new Schema({
 
     _user : {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
     name : { type : String },
-    meta : {} // For extra information
+    sprite : {} // For all sprite information
 
 });
 
