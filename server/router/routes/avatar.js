@@ -32,5 +32,17 @@ router.post('/', function(req, res) {
     });
 });
 
+// The GET /all route
+router.get('/all', function (req, res) {
+    Avatar.find({}, function(err, avatar) {
+        if (err)
+            return next(err);
+        if (!avatar)
+            return res.json({error : 'No avatar found'});
+
+        res.json(avatar);
+    });
+});
+
 // Export the router for usage in our server/router/index.js
 module.exports = router;

@@ -51,6 +51,11 @@ angular
         controller: 'AvatarCtrl',
         controllerAs: 'avatar'
       })
+      .when('/avatars', {
+        templateUrl: 'views/avatars.html',
+        controller: 'AvatarsCtrl',
+        controllerAs: 'avatars'
+      })
       .otherwise({
         redirectTo: '/'
       });
