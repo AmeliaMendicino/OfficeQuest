@@ -60,6 +60,22 @@ angular.module('clientApp')
     };
 
     avatar.submit = function () {
-        console.log(avatar);
+        // Check to see if a name has been inputted
+        if (!avatar.name ) {
+            avatar.error = "*Please put in a name for your avatar!";
+        }
+        // Put together object to send to server
+
+        // Make the request to the server
+        var request = $http.post('/avatar', user);
+
+        request.success(function (data) {
+            avatar.error = false;
+            $location.path('/profile');
+        });
+
+        request.error(function (data) {
+            avatar.error = data.error;
+        });
     };
   });
