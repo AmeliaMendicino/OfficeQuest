@@ -1,7 +1,7 @@
 <div class="wrap">
 	<div class="avatarSprite pull-left">
 		<sprite model="avatar.sprite" />
-		<a ng-click="avatar.nextBody()" class="btn btn-primary"><span class="fa fa-chevron-left"></span>&nbsp;&nbsp;<span class="fa fa-chevron-right"></span></a>
+		<div ng-click="avatar.nextBody()" class="btn btn-primary">Switch</div>
 	</div>
 	<div class="avatarCustomize">
 		<div ng-if="avatar.error" class="text-danger">{{avatar.error}}</div>
