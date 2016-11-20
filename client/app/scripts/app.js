@@ -61,8 +61,11 @@ angular
       });
   }).config(function(grunticonEmbedConfigProvider) {
       grunticonEmbedConfigProvider.init('sprites/icons.data.svg.css');
-  }).controller('HeaderController', function($scope, $location) {
+  }).controller('HeaderController', function($scope, $location, $rootScope) {
     $scope.isActive = function (viewLocation) { 
         return viewLocation === $location.path();
+    };
+    $scope.isLoggedIn = function () {
+        return !!$rootScope.userData;
     };
   });
