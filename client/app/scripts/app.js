@@ -56,6 +56,11 @@ angular
         controller: 'AvatarsCtrl',
         controllerAs: 'avatars'
       })
+      .when('/chat', {
+        templateUrl: 'views/chat.html',
+        controller: 'ChatCtrl',
+        controllerAs: 'chat'
+      })
       .otherwise({
         redirectTo: '/'
       });
