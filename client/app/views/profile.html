@@ -1,9 +1,8 @@
 <div class="page-header text-center">
     <h1><span class="fa fa-anchor"></span> Profile Page</h1>
-    <a href="/logout" class="btn btn-default btn-sm">Logout</a>
 </div>
 
-<div class="text-center">
+<div class="text-center" ng-if="profile.avatar.sprite">
     <h1>{{profile.avatar.name}}</h1>
     <sprite model="profile.avatar.sprite"/>
 </div>

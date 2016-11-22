@@ -45,6 +45,7 @@
               <li ng-class="{ active: isActive('/profile')}"><a href="#/profile">Home</a></li>
               <li ng-class="{ active: isActive('/avatars')}"><a ng-href="#/avatars">Avatars</a></li>
               <li ng-class="{ active: isActive('/about')}"><a ng-href="#/about">About</a></li>
+              <li ng-show="isLoggedIn()"><a ng-href="/logout">Logout</a></li>
             </ul>
           </div>
         </div>

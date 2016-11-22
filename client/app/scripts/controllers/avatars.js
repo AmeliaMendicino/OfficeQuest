@@ -14,5 +14,10 @@ angular.module('clientApp')
 
     $http.get('/avatar/all').then(function(response) {
     	avatars.all = response.data;
+    	console.log(response);
+    }, function(data){
+    	if (data.status === 401) {
+    		avatars.error = 'Please log in to see avatars!';
+    	}
     });
   });
