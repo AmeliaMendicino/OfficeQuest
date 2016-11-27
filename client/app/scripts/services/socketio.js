@@ -9,5 +9,7 @@
  */
 angular.module('clientApp')
   .factory('socketIO', function (socketFactory) {
-    return socketFactory();
+  	var mySocket = socketFactory();
+	mySocket.forward('error');
+	return mySocket;
   });
