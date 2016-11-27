@@ -7,8 +7,7 @@ var bodyParser = require('body-parser');
 var flash = require('connect-flash');
 var passport = require('passport');
 var session = require('express-session');
-var database = require('./database');
-var MongoStore = require('connect-mongo')(session);
+var sessionSettings = require('./config/session');
 
 var app = express();
 
@@ -19,13 +18,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 require('./config/passport')(passport);
-app.use(session({
-    secret:'slay the beasts',
-    resave: false,
-    saveUninitialized: false,
-    maxAge: new Date(Date.now() + 3600000), // 1 hour
-    store: new MongoStore({mongooseConnection: database.connection})
-}));
+
+app.use(session(sessionSettings));
 app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
 app.use(flash()); // use connect-flash for flash messages stored in session
