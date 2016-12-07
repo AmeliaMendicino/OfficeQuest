@@ -44,6 +44,7 @@
             <ul class="nav navbar-nav">
               <li ng-class="{ active: isActive('/profile')}"><a href="#/profile">Home</a></li>
               <li ng-class="{ active: isActive('/avatars')}"><a ng-href="#/avatars">Avatars</a></li>
+              <li ng-class="{ active: isActive('/chat')}"><a ng-href="#/chat">Chat</a></li>
               <li ng-class="{ active: isActive('/about')}"><a ng-href="#/about">About</a></li>
               <li ng-show="isLoggedIn()"><a ng-href="/logout">Logout</a></li>
             </ul>
@@ -87,7 +88,6 @@
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
-    <script src="bower_components/socket.io-client/socket.io.js"></script>
     <script src="bower_components/angular-socket-io/socket.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
